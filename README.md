@@ -11,11 +11,11 @@ install require lib and add dependencies
 Save index.js 
 Run by index.js
 
-EJS
+EJS ->
 Create partial folder 
 save index.ejs and login.ejs in partial folder
 
-CSS
+CSS ->
 Create public folder 
 In public folder create styles folder 
 Save index.css and login.css in styles folder
