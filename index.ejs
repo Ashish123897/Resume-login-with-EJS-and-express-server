@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/index.css">
+    <title>EJS</title>
+</head>
+<body>
+    <% if (locals.p1 && locals.p2) { %>
+        <%- include('login.ejs') %>
+      <% } else { %>
+    <h1>Login Form</h1>
+    <form action="/sumbit" method="post">
+    <input type="text" placeholder="Enter your name" name="first">
+    <input type="password" placeholder="Enter your password" name="second">
+    <input type="submit" value="sumbit">
+    </form>
+    <% } %>
+</body>
+</html>
