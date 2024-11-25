@@ -1,21 +1,21 @@
-# Resume-login-with-EJS-and-expres-server
-Resume login With EJs and express server 
-Name -> Ashish 
-Password->123
+# 📝 Resume Login App
 
-Package Json 
-type:"module"
+## Description
+The **Resume Login App** is a web-based application for users to upload and manage their resumes securely. Built with Express.js and EJS, it features a clean interface and a user-friendly login system to ensure seamless access and resume management.
 
-install require lib and add dependencies 
+---
 
-Save index.js 
-Run by index.js
+## Features
+- 🔒 **User Authentication**: Secure login system to access resume dashboard.
+- 📄 **Resume Upload**: Upload and manage resumes with ease.
+- 📋 **Dynamic EJS Views**: Render dynamic pages with EJS templates.
+- 📱 **Responsive Design**: Optimized for desktops, tablets, and mobile devices.
 
-EJS ->
-Create partial folder 
-save index.ejs and login.ejs in partial folder
+---
 
-CSS ->
-Create public folder 
-In public folder create styles folder 
-Save index.css and login.css in styles folder
+## Technologies Used
+- **Backend**: Express.js
+- **Templating**: EJS (Embedded JavaScript)
+- **Styling**: CSS/Tailwind CSS/Bootstrap
+- **Database**: MongoDB/MySQL (optional, if implemented)
+- **Authentication**: Express-Session/Passport.js (if applicable)
